@@ -186,13 +186,100 @@
 // -- ATRIBUI UM DECREMENTO -- (RETIRA 1 VALOR)
 // % ATRIBUIÇÃO DE RESTO %=  (VAMOS VER COM O TEMPO)
 
-let x = 1
-let y = 2
 
-//somar 
+// //Somar
+// let precoTotal = 6
+// //console.log(precoTotal = precoTotal + 40) //Forma completa
+// console.log(precoTotal += 40) //Forma simplificada
 
-console.log(x=x+y) // Forma mais completa de somar
+// //ex
+// let num = 29
+// console.log(num = num + 12) //41 
+// console.log(num += 14) //Aqui ele pegou o valor salvo que foi o 41 e somou com o 12, dando 55 
+// console.log(num += 10) //55 + 10 = 65
 
-let w = 3
-let z = 4
-console.log(w+=z) //Forma mais simplicada de somar
+// //Subtrair 
+// let num2 = 9
+// //console.log(num2 = num2 -= 4)//Forma completa
+// console.log(num2 -= 4) //Forma simplificada
+
+// //Multiplicar
+// let num3 = 12
+// console.log(num3 = num3 * 2) //12*2 = 24
+// console.log(num3 *= 2) //24*2 = 48
+
+// //Dividir 
+// let num4 = 687
+// //console.log(num4 = num4 /= 6)
+// console.log(num4 /= 6)
+
+
+//------LOOPS ----
+//LOOPS: SÃO LAÇOS DE REPETIÇÕES, EXECUTAR UMA TAREFA DIVERSAS VEZES.
+
+//IMAGINE UM CONTADOR FEITO DE FORMA MANUAL, CONTANDO DE 1 ATÉ 10 
+
+//let contador = 0
+
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+// console.log(contador = contador + 1)
+
+
+//while (enquanto) Execute o loop enquanto a condição for verdadeira.
+
+// while(condição){
+//     tarefa
+//     iteração
+// }
+
+//Ex1
+let batata = 0
+
+while (batata < 100) {
+    batata++  //adicione/some 1 (um) valor ao seu valor atual
+    //console.log(batata)
+}
+
+//batata inicou com 0 
+//batata++ quer dizer o valor 0+1
+//agora a batata tem o valor atual de 1, batata ++ quer dizer o valor 1+1... 
+
+//Ex2
+let cenoura = 100
+
+while (cenoura < 1000) {
+    cenoura += 50
+    //console.log(cenoura)
+}
+
+//Ex3 - Definindo aumento de salário 
+
+let salario = 1000
+while (salario < 5000) {
+    salario += 100
+    //console.log(`O seu salário atual é de R$ ${salario}`)
+}
+
+//Ex4 
+
+let pares = 0
+while (pares < 40) {
+    pares += 2
+    console.log(pares)
+}
+
+//Ex5 
+
+let impares = 1
+while (impares < 40) {
+    impares += 2
+    console.log(impares)
+}
