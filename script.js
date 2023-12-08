@@ -257,7 +257,7 @@ let cenoura = 100
 
 while (cenoura < 1000) {
     cenoura += 50
-    //console.log(cenoura)
+   // console.log(cenoura)
 }
 
 //Ex3 - Definindo aumento de salário 
@@ -273,7 +273,7 @@ while (salario < 5000) {
 let pares = 0
 while (pares < 40) {
     pares += 2
-    console.log(pares)
+    //console.log(pares)
 }
 
 //Ex5 
@@ -281,5 +281,51 @@ while (pares < 40) {
 let impares = 1
 while (impares < 40) {
     impares += 2
-    console.log(impares)
+    //console.log(impares)
 }
+
+//---------------------------08/12
+
+
+// while(condição){
+//     tarefa
+//     iteração
+// }
+
+
+
+//-----simplicada
+let multiplicar = 3
+
+while(multiplicar <= 20){
+multiplicar *= 2
+//console.log(multiplicar)
+}
+
+
+//---- completa
+let mult = 12 
+
+while(mult <= 150){
+mult = mult*2
+//console.log(mult)
+}
+
+
+//FOR : Executa o loop enquanto a condição for verdadeira, porém a variável é guardada dentro do bloco. 
+
+
+//for(variável; condição; iteração){
+//tarefa
+//}
+
+
+for(let n = 1; n <= 10; n++){   //++ é incremento, soma 1valor
+//console.log(n)
+}
+
+
+//CUIDADOO!! ESSE CÓDIGO SERÁ EXECUTADO ETERNAMENTE
+for(let m = 1; m <= 10; m--){   //-- é decremento, retira 1valor
+    console.log(m)   // não tire o comentário daqui
+    }
